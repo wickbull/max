@@ -110,7 +110,7 @@
 
 	  		$curl_exec = curl_exec( $curl );
 
-	  		print_r( $curl_exec );
+	  		// print_r( $curl_exec );
 
 	  		$info = curl_getinfo($curl);
 	  		// $cookies = array();
@@ -118,7 +118,7 @@
 
 	  		curl_close($curl);
 
-	  		var_dump( $_SESSION );
+	  		// var_dump( $_SESSION );
 	  		var_dump( $_COOKIE );
 
   		}else exit('empty($_GET[form])');
